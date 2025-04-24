@@ -1,5 +1,5 @@
 # 概要
-[TDQ-TypeScriptで開発ができるようになるための知識を詰め込んだ問題集](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%92TDQ) の解答レポジトリ
+[TDQ-TypeScriptで開発ができるようになるための知識を詰め込んだ問題集](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%92TDQ) の解答レポジトリ　　
 参考書はJJavaScript Primer
 
 ## Done
