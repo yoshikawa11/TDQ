@@ -1,13 +1,9 @@
-function isOver10(num) {
-  return num > 10;
-}
-
 function main() {
-  let v = 11;
-  if (isOver10(v)) {
-    v = 10;
+  const nums = [];
+  for (let i = 0; i < 5; i++) {
+    nums.push(i * 10);
   }
-  console.log(v);
+  console.log(nums);
 }
 
 main();
