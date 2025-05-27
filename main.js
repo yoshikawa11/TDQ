@@ -1,9 +1,7 @@
 function main() {
-  const nums = [];
-  for (let i = 0; i < 5; i++) {
-    nums.push(i * 10);
-  }
-  console.log(nums);
+  console.log(typeof "hoge");
+  console.log(typeof []);
+  console.log(typeof null);
 }
 
 main();
