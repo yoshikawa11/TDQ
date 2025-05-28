@@ -1,6 +1,6 @@
 function main() {
-  const [one, two] = ["one", "two"];
-  console.log(one, two);
+  const { title, hidden } = { title: "タイトル", hidden: true };
+  console.log(title, hidden);
 }
 
 main();
