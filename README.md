@@ -11,3 +11,4 @@
 - [📗TDQ-005 等価演算子と厳密等価演算子](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-005+%E7%AD%89%E4%BE%A1%E6%BC%94%E7%AE%97%E5%AD%90%E3%81%A8%E5%8E%B3%E5%AF%86%E7%AD%89%E4%BE%A1%E6%BC%94%E7%AE%97%E5%AD%90)
 - [📗TDQ-006 分割代入](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-006+%E5%88%86%E5%89%B2%E4%BB%A3%E5%85%A5)
 - [📗TDQ-007 論理演算子とNull合体演算子](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-007+%E8%AB%96%E7%90%86%E6%BC%94%E7%AE%97%E5%AD%90%E3%81%A8Null%E5%90%88%E4%BD%93%E6%BC%94%E7%AE%97%E5%AD%90)
+- [📗TDQ-008 関数](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-008+%E9%96%A2%E6%95%B0)
