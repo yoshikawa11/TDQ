@@ -1,19 +1,20 @@
 /**
- * 引数がすべて空文字ではないことを確認します
- * @param {string} str1
- * @param {string} str2
- * @param {string} str3
- * @returns {boolean} 結果
+ * 3つの文字列を結合します。
+ * cは省略可能であり、その場合は"@"として結合します。
+ *
+ * @param {string} a
+ * @param {string} b
+ * @param {string} [c="@"]
+ * @returns {string} 結合された文字列
  */
-function notIncludesEmpty(str1, str2, str3) {
-  return str1 != "" && str2 != "" && str3 != "";
+function join(a, b, c) {
+  return a + b + (c ?? "@");
 }
 
 function main() {
-  console.log(notIncludesEmpty("a", "b", "c")); // true
-  console.log(notIncludesEmpty("a", "", "c")); // false
-  console.log(notIncludesEmpty("", "", "")); // false
-  console.log(notIncludesEmpty("a", "b", null)); // true
+  console.log(join("a", "b", "c")); // abc
+  console.log(join("a", "b")); // ab@
+  console.log(join("", "", "")); // ""
 }
 
 main();
