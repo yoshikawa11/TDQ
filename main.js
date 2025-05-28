@@ -1,11 +1,9 @@
-function main() {
-  const tdqResult = { data: [1, 2], error: null };
-  const tdqData = tdqResult.data;
-  const tdqError = tdqResult.error;
-  console.log(tdqData, tdqError);
+function hoge(args) {
+  const { id, name = "No name" } = args;
 
-  const { data: newData, error: newError } = { data: [1, 2], error: null };
-  console.log(newData, newError);
+  console.log(id, name);
 }
 
-main();
+hoge({ id: 1, name: "test" }); // Outputs: 1 test
+hoge({ id: 2 }); // Outputs: 2 No name
+hoge({ id: 3, name: "example", student: true }); // Outputs: 3 example
