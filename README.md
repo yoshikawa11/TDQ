@@ -13,3 +13,4 @@
 - [📗TDQ-007 論理演算子とNull合体演算子](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-007+%E8%AB%96%E7%90%86%E6%BC%94%E7%AE%97%E5%AD%90%E3%81%A8Null%E5%90%88%E4%BD%93%E6%BC%94%E7%AE%97%E5%AD%90)
 - [📗TDQ-008 関数](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-008+%E9%96%A2%E6%95%B0)
 - [📗TDQ-009 条件分岐と三項演算子](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-009+%E6%9D%A1%E4%BB%B6%E5%88%86%E5%B2%90%E3%81%A8%E4%B8%89%E9%A0%85%E6%BC%94%E7%AE%97%E5%AD%90)
+- [📗TDQ-010 Denoのテスト](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-010+Deno%E3%81%AE%E3%83%86%E3%82%B9%E3%83%88)
