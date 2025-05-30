@@ -15,3 +15,4 @@
 - [📗TDQ-009 条件分岐と三項演算子](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-009+%E6%9D%A1%E4%BB%B6%E5%88%86%E5%B2%90%E3%81%A8%E4%B8%89%E9%A0%85%E6%BC%94%E7%AE%97%E5%AD%90)
 - [📗TDQ-010 Denoのテスト](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-010+Deno%E3%81%AE%E3%83%86%E3%82%B9%E3%83%88)
 - [📗TDQ-011 for文はfor of](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-011+for%E6%96%87%E3%81%AFfor+of)
+- [📗TDQ-012 オブジェクトの基本](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-012+%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E5%9F%BA%E6%9C%AC)
