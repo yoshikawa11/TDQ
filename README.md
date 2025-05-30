@@ -22,3 +22,4 @@
 - [📗TDQ-016 配列の変換 その１](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-016+%E9%85%8D%E5%88%97%E3%81%AE%E5%A4%89%E6%8F%9B+%E3%81%9D%E3%81%AE%EF%BC%91)
 - [📗TDQ-017 配列の変換 その２](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-017+%E9%85%8D%E5%88%97%E3%81%AE%E5%A4%89%E6%8F%9B+%E3%81%9D%E3%81%AE%EF%BC%92)
 - [📗TDQ-018 配列の条件判定](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-018+%E9%85%8D%E5%88%97%E3%81%AE%E6%9D%A1%E4%BB%B6%E5%88%A4%E5%AE%9A)
+- [📗TDQ-019 文字列の基礎](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-019+%E6%96%87%E5%AD%97%E5%88%97%E3%81%AE%E5%9F%BA%E7%A4%8E)
