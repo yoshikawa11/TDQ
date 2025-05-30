@@ -20,3 +20,4 @@
 - [📗TDQ-014 オブジェクトの拡張と複製](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-014+%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E6%8B%A1%E5%BC%B5%E3%81%A8%E8%A4%87%E8%A3%BD)
 - [📗TDQ-015 配列の基礎と検索](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-015+%E9%85%8D%E5%88%97%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%81%A8%E6%A4%9C%E7%B4%A2)
 - [📗TDQ-016 配列の変換 その１](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-016+%E9%85%8D%E5%88%97%E3%81%AE%E5%A4%89%E6%8F%9B+%E3%81%9D%E3%81%AE%EF%BC%91)
+- [📗TDQ-017 配列の変換 その２](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-017+%E9%85%8D%E5%88%97%E3%81%AE%E5%A4%89%E6%8F%9B+%E3%81%9D%E3%81%AE%EF%BC%92)
