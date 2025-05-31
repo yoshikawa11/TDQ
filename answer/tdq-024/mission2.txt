@@ -1,0 +1,18 @@
+D → A → B → E → G → C → F
+
+D console.log("Before createCapRamenPromise")
+→ 関数呼び出し前なので最初に実行される。
+
+A 関数 createCapRamenPromise が呼ばれる。
+→ 関数の先頭で new Promise(...) を作成。
+
+B new Promise の executor 関数が即時実行され、setTimeout が登録される。
+
+E .then(...) が呼び出される（Promise チェーンにコールバック登録）。
+
+G console.log("After createCapRamenPromise")
+→ 非同期部分を登録後、すぐ実行される。
+
+C 約3秒後、setTimeout により resolve(...) が呼ばれる。
+
+F .then(...) に登録された関数が実行され、結果 "美味しいラーメン" が出力される。

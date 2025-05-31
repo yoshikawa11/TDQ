@@ -28,3 +28,4 @@
 - [📗TDQ-021 エラーと例外処理](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-021+%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%A8%E4%BE%8B%E5%A4%96%E5%87%A6%E7%90%86)
 - [📗TDQ-022 非同期処理はなぜ生まれたのか](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-022+%E9%9D%9E%E5%90%8C%E6%9C%9F%E5%87%A6%E7%90%86%E3%81%AF%E3%81%AA%E3%81%9C%E7%94%9F%E3%81%BE%E3%82%8C%E3%81%9F%E3%81%AE%E3%81%8B)
 - [📗TDQ-023 古の非同期処理 コールバック関数](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-023+%E5%8F%A4%E3%81%AE%E9%9D%9E%E5%90%8C%E6%9C%9F%E5%87%A6%E7%90%86+%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%90%E3%83%83%E3%82%AF%E9%96%A2%E6%95%B0)
+- [📗TDQ-024 Promiseの基本 正常系](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-024+Promise%E3%81%AE%E5%9F%BA%E6%9C%AC+%E6%AD%A3%E5%B8%B8%E7%B3%BB)
