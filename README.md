@@ -25,3 +25,4 @@
 - [📗TDQ-019 文字列の基礎](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-019+%E6%96%87%E5%AD%97%E5%88%97%E3%81%AE%E5%9F%BA%E7%A4%8E)
 - [📗TDQ-020 正規表現](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-020+%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%8F%BE)
 - [📗TDQ-BOSS1 Promiseへの番人](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-BOSS1+Promise%E3%81%B8%E3%81%AE%E7%95%AA%E4%BA%BA)
+- [📗TDQ-021 エラーと例外処理](https://minerva.mamansoft.net/%F0%9F%93%97TDQ/%F0%9F%93%97TDQ-021+%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%A8%E4%BE%8B%E5%A4%96%E5%87%A6%E7%90%86)
