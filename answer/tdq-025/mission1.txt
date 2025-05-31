@@ -1,0 +1,5 @@
+このコードが期待通りに .catch() で例外を捕捉できない理由は、Promise の executor 関数内で 
+throw された例外が非同期 (setTimeout) の中で発生しているためです。
+setTimeout 内で発生した throw は、Promise の外側のスコープで例外が発生しているのと同じ扱いになる。
+これは グローバル例外として処理され、Promise は reject 状態にならず、.catch() に伝播されない。
+→ new Error の代わりに reject() を使う
