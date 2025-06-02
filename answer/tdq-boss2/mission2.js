@@ -1,0 +1,59 @@
+// tdq % deno run --allow-net --allow-read answer/tdq-boss2/mission2.jsのコマンドで実行すること
+
+import { load } from "jsr:@std/dotenv";
+
+const env = await load();
+const apiKey = env.API_KEY;
+
+if (!apiKey) {
+  console.error("API_KEYが設定されていません。");
+  Deno.exit(1);
+}
+
+async function getProductName() {
+  const products = [];
+
+  // 最初のページで total_pages を取得
+  const firstRes = await fetch(
+    "https://reqres.in/api/products?per_page=3&page=1",
+    {
+      headers: {
+        "x-api-key": apiKey,
+      },
+    },
+  );
+
+  if (!firstRes.ok) {
+    console.error("初回リクエストに失敗:", firstRes.status);
+    Deno.exit(1);
+  }
+
+  const firstData = await firstRes.json();
+  const totalPages = firstData.total_pages;
+
+  products.push(...firstData.data.map((p) => p.name));
+
+  // 2ページ目以降を順に取得
+  for (let i = 2; i <= totalPages; i++) {
+    const res = await fetch(
+      `https://reqres.in/api/products?per_page=3&page=${i}`,
+      {
+        headers: {
+          "x-api-key": apiKey,
+        },
+      },
+    );
+
+    if (!res.ok) {
+      console.error(`ページ${i}の取得に失敗:`, res.status);
+      continue;
+    }
+
+    const data = await res.json();
+    products.push(...data.data.map((p) => p.name));
+  }
+
+  return products;
+}
+
+console.log(await getProductName());
