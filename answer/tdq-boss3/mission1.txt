@@ -1,0 +1,2 @@
+関数 fetchUsers は、外部API（https://reqres.in/api/users）からユーザー情報を取得して、
+特定の条件に合致するユーザーだけを抽出する。
