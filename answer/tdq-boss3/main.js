@@ -1,3 +1,5 @@
+// deno --allow-net --allow-read "....../tdq/answer/tdq-boss3/main.js"
+
 import { httpGet } from "./libs.js";
 
 function fetchUsers(condition, callback) {
@@ -9,18 +11,14 @@ function fetchUsers(condition, callback) {
 
     try {
       const users = jsonRes.data;
-      const filteredUsers = [];
-      // todo : usersをfilterでリファクタリングする
-      for (let i = 0; i < users.length; i++) {
-        const user = users[i];
-        if (
+      const filteredUsers = users.filter((user) => {
+        return (
           !condition.name ||
-          user.first_name.indexOf(condition.name) !== -1 ||
-          user.last_name.indexOf(condition.name) !== -1
-        ) {
-          filteredUsers.push(user);
-        }
-      }
+          user.first_name.includes(condition.name) ||
+          user.last_name.includes(condition.name)
+        );
+      });
+
       callback(null, filteredUsers);
     } catch (e) {
       callback(e, null);
